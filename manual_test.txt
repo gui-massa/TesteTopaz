@@ -1,0 +1,18 @@
+# Teste manual para Passo 1:
+get_username("NadiaaOliverr")
+get_username("gui-massa")
+get_username("bolo_choco")
+get_username("NadiaaOliverr")
+get_username("gui-massa")
+
+
+# Teste simples para Passo 2:
+parameters = ['login', 'id', 'avatar_url', 'html_url']
+usuario1 = User("gui-massa")
+usuario1.get_parameter(parameters)
+
+usuario2 = User("githubuser")
+usuario2.get_parameter(parameters)
+
+usuario3 = User("blablablafjeolnklsdj")
+usuario3.get_parameter(parameters)
