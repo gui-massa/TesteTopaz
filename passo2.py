@@ -55,5 +55,5 @@ class TestMethods(unittest.TestCase):
         parameters = ['login', 'id', 'avatar_url', 'html_url']
         self.assertFalse(user_test.get_parameter(parameters) == 404)
 
-        if __name__ == "__main__":
-            unittest.main()
+if __name__ == "__main__":
+    unittest.main()
